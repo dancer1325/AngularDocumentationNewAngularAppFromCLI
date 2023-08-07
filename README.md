@@ -1,6 +1,11 @@
 # QuicktStart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+This project
+* was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+  * More concretely via `npm init @angular myApp`
+    * Requirements
+      * npm version > 8.5.0
+* was following [this part of the Angular documentation](https://angular.io/quick-start#create-a-new-angular-app-from-the-command-line)
 
 ## Development server
 
