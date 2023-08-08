@@ -93,3 +93,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * It's configured under "src/environments"
 * How it was created?
   * `ng generate environments`
+
+## NewGuard
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate guard newGuard`
