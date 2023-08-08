@@ -8,6 +8,7 @@ This project
 * includes 
   * following [this part of the Angular documentation](https://angular.io/quick-start#create-a-new-angular-app-from-the-command-line
   * following [app-shell](https://angular.io/guide/app-shell)
+  * following [ngGenerateApplication](https://angular.io/cli/generate#application)
 
 
 ## Development server
@@ -45,3 +46,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   * `ng run QuicktStart:server:development`
     * Generate the build output under "dist/QuicktStart/server"
     * TODO: What is it used for ?
+
+## NewApp
+
+* How it was created?
+  * `ng generate app newApp`
