@@ -51,3 +51,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 * How it was created?
   * `ng generate app newApp`
+
+## NewClass
+
+* It's generated under "src/app" 
+* How it was created?
+  * `ng generate class newClass`
