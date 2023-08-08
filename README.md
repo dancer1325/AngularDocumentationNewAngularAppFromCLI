@@ -66,6 +66,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NewConfigKarma
 
+
 * It's configured under "test" architect
 * How it was created?
   * `ng generate config karma`
+## NewConfigBrowsersList
+
+* It's configured under root path
+* How it was created?
+  * `ng generate config browserslist`
