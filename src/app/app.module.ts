@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { NewComponentComponent } from './new-component/new-component.component';
+import { NewDirectiveDirective } from './new-directive.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewComponentComponent
+    NewComponentComponent,
+    NewDirectiveDirective
   ],
   imports: [
     BrowserModule,
