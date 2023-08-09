@@ -141,3 +141,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * It's configured under "src/app"
 * How it was created?
   * `ng generate service newService`
+
+## NewServiceWorker
+
+* It's configured under root path
+* How it was created?
+  * `ng generate service-worker`
