@@ -123,3 +123,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * It's configured under "src/app/newModule"
 * How it was created?
   * `ng generate module newModule`
+
+## NewPipe
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate pipe newPipe`

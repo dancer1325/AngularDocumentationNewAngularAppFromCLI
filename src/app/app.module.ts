@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { NewComponentComponent } from './new-component/new-component.component';
 import { NewDirectiveDirective } from './new-directive.directive';
+import { NewPipePipe } from './new-pipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewComponentComponent,
-    NewDirectiveDirective
+    NewDirectiveDirective,
+    NewPipePipe
   ],
   imports: [
     BrowserModule,
