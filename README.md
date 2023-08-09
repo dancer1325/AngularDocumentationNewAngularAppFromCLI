@@ -17,7 +17,125 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+### App shell
+
+* It was generated via `ng generate app-shell`
+  * Since the render of the app-shell is via routing -> `RouterModule` is added
+* How to run it locally?
+  * `ng run QuicktStart:app-shell:development`
+    * Generate the build output under "dist/QuicktStart/browser"
+    * Open in the browser "dist/QuicktStart/browser/index.html"
+  * `ng run QuicktStart:server:development`
+    * Generate the build output under "dist/QuicktStart/server"
+    * TODO: What is it used for ?
+
+### NewApp
+
+* How it was created?
+  * `ng generate app newApp`
+
+### NewClass
+
+* It's generated under "src/app"
+* How it was created?
+  * `ng generate class newClass`
+
+### NewComponent
+
+* It's generated under "src/app"
+* How it was created?
+  * `ng generate component newComponent`
+
+### NewConfigKarma
+
+* It's configured under "test" architect
+* How it was created?
+  * `ng generate config karma`
+
+### NewConfigBrowsersList
+
+* It's configured under root path
+* How it was created?
+  * `ng generate config browserslist`
+
+### NewDirective
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate directive newDirective`
+
+### NewEnum
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate enum newEnum`
+
+### NewEnvironment
+
+* It's configured under "src/environments"
+* How it was created?
+  * `ng generate environments`
+
+### NewGuard
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate guard newGuard`
+
+### NewInterceptor
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate interceptor newInterceptor`
+
+### NewInterface
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate interface newInterface`
+
+### NewLibrary
+
+* It's configured under "projects/newLibrary"
+* How it was created?
+  * `ng generate library newLibrary`
+
+### NewModule
+
+* It's configured under "src/app/newModule"
+* How it was created?
+  * `ng generate module newModule`
+
+### NewPipe
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate pipe newPipe`
+
+### NewResolver
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate resolver newResolver`
+
+### NewService
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate service newService`
+
+### NewServiceWorker
+
+* It's configured under root path
+* How it was created?
+  * `ng generate service-worker`
+
+### NewWebWorker
+
+* It's configured under "src/app"
+* How it was created?
+  * `ng generate web-worker newWebWorker`
 
 ## Build
 
@@ -38,122 +156,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## App shell
-
-* It was generated via `ng generate app-shell`
-  * Since the render of the app-shell is via routing -> `RouterModule` is added
-* How to run it locally?
-  * `ng run QuicktStart:app-shell:development`
-    * Generate the build output under "dist/QuicktStart/browser"
-    * Open in the browser "dist/QuicktStart/browser/index.html"
-  * `ng run QuicktStart:server:development`
-    * Generate the build output under "dist/QuicktStart/server"
-    * TODO: What is it used for ?
-
-## NewApp
-
-* How it was created?
-  * `ng generate app newApp`
-
-## NewClass
-
-* It's generated under "src/app" 
-* How it was created?
-  * `ng generate class newClass`
-
-## NewComponent
-
-* It's generated under "src/app"
-* How it was created?
-  * `ng generate component newComponent`
-
-## NewConfigKarma
-
-* It's configured under "test" architect
-* How it was created?
-  * `ng generate config karma`
-
-## NewConfigBrowsersList
-
-* It's configured under root path
-* How it was created?
-  * `ng generate config browserslist`
-
-## NewDirective
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate directive newDirective`
-
-## NewEnum
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate enum newEnum`
-
-## NewEnvironment
-
-* It's configured under "src/environments"
-* How it was created?
-  * `ng generate environments`
-
-## NewGuard
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate guard newGuard`
-
-## NewInterceptor
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate interceptor newInterceptor`
-
-## NewInterface
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate interface newInterface`
-
-## NewLibrary
-
-* It's configured under "projects/newLibrary"
-* How it was created?
-  * `ng generate library newLibrary`
-
-## NewModule
-
-* It's configured under "src/app/newModule"
-* How it was created?
-  * `ng generate module newModule`
-
-## NewPipe
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate pipe newPipe`
-
-## NewResolver
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate resolver newResolver`
-
-## NewService
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate service newService`
-
-## NewServiceWorker
-
-* It's configured under root path
-* How it was created?
-  * `ng generate service-worker`
-
-## NewWebWorker
-
-* It's configured under "src/app"
-* How it was created?
-  * `ng generate web-worker newWebWorker`
