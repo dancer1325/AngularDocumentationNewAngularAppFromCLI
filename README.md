@@ -111,3 +111,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * It's configured under "src/app"
 * How it was created?
   * `ng generate interface newInterface`
+
+## NewLibrary
+
+* It's configured under "projects/newLibrary"
+* How it was created?
+  * `ng generate library newLibrary`
