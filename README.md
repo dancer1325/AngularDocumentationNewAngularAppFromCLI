@@ -151,7 +151,15 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* `ng e2e`
+  * execute all the project's end-to-end tests
+  * If you haven't configured an architect -> it will lead you to create one
+    * Cypress
+    * Nightwatch
+    * WebdriverIO
+* `ng e2e ProjectName`
+  * execute ProjectName's tests
+
 
 ## Further help
 
