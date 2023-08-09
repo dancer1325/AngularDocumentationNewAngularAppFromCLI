@@ -117,3 +117,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * It's configured under "projects/newLibrary"
 * How it was created?
   * `ng generate library newLibrary`
+
+## NewModule
+
+* It's configured under "src/app/newModule"
+* How it was created?
+  * `ng generate module newModule`
