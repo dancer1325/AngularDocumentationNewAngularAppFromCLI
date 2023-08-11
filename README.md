@@ -5,6 +5,7 @@ This project
   * More concretely via `npm init @angular myApp`
     * Requirements
       * npm version > 8.5.0
+    * [AppRoutingModule](https://github.com/dancer1325/AngularDocumentationNewAngularAppFromCLI/blob/main/src/app/app-routing.module.ts) is generated, using [RouterModule](https://angular.io/api/router/RouterModule)
 * includes 
   * following [this part of the Angular documentation](https://angular.io/quick-start#create-a-new-angular-app-from-the-command-line
   * following [app-shell](https://angular.io/guide/app-shell)
