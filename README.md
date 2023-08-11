@@ -45,6 +45,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ### NewComponent
 
 * It's generated under "src/app"
+* The [selector](https://github.com/dancer1325/AngularDocumentationNewAngularAppFromCLI/blob/main/src/app/new-component/new-component.component.ts#L4) is prefixed with "app-" by convention
 * How it was created?
   * `ng generate component newComponent`
 
