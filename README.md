@@ -6,6 +6,7 @@ This project
     * Requirements
       * npm version > 8.5.0
     * [AppRoutingModule](https://github.com/dancer1325/AngularDocumentationNewAngularAppFromCLI/blob/main/src/app/app-routing.module.ts) is generated, using [RouterModule](https://angular.io/api/router/RouterModule)
+    * `ng new myApp` is an alternative to create an Angular workspace via Angular CLI
 * includes 
   * following [this part of the Angular documentation](https://angular.io/quick-start#create-a-new-angular-app-from-the-command-line
   * following [app-shell](https://angular.io/guide/app-shell)
