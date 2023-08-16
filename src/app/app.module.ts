@@ -8,13 +8,15 @@ import { NewComponentComponent } from './new-component/new-component.component';
 import { NewDirectiveDirective } from './new-directive.directive';
 import { NewPipePipe } from './new-pipe.pipe';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { NewComponentWithInlineStyleComponent } from './new-component-with-inline-style/new-component-with-inline-style.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewComponentComponent,
     NewDirectiveDirective,
-    NewPipePipe
+    NewPipePipe,
+    NewComponentWithInlineStyleComponent
   ],
   imports: [
     BrowserModule,

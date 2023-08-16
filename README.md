@@ -48,6 +48,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 * How it was created?
   * `ng generate component newComponent`
 
+#### NewComponentWithInlineStyle
+
+* It's generated under "src/app"
+* No `.css` file is generated and it's indicated as an empty style in the component
+* How it was created?
+  * `ng generate component newComponentWithInlineStyle --inline-style`
+
 ### NewConfigKarma
 
 * It's configured under "test" architect
