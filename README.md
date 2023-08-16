@@ -5,6 +5,8 @@ This project
   * More concretely via `npm init @angular myApp`
     * Requirements
       * npm version > 8.5.0
+    * [AppRoutingModule](https://github.com/dancer1325/AngularDocumentationNewAngularAppFromCLI/blob/main/src/app/app-routing.module.ts) is generated, using [RouterModule](https://angular.io/api/router/RouterModule)
+    * `ng new myApp` is an alternative to create an Angular workspace via Angular CLI
 * includes 
   * following [this part of the Angular documentation](https://angular.io/quick-start#create-a-new-angular-app-from-the-command-line
   * following [app-shell](https://angular.io/guide/app-shell)
@@ -47,6 +49,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 * It's generated under "src/app"
 * How it was created?
   * `ng generate component newComponent`
+* Added to the [AppModule](https://github.com/dancer1325/AngularDocumentationNewAngularAppFromCLI/blob/main/src/app/app.module.ts#L15) to make it available to other components in the application    
+* The [selector](https://github.com/dancer1325/AngularDocumentationNewAngularAppFromCLI/blob/main/src/app/new-component/new-component.component.ts#L4) is prefixed with "app-" by convention
 
 #### NewComponentWithInlineStyle
 
@@ -146,7 +150,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* `ng build`
+  * The build artifacts will be stored in the `dist/` directory.
+    * with all the files, required by a hosting service, to serve your application 
 
 ## Running unit tests
 
